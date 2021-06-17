@@ -37,7 +37,7 @@ module MyApi
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
     config.after_initialize do
-      Consumer.subscribe
+      Consumers.subscribe
     end
   end
 end

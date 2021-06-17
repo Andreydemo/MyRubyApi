@@ -1,4 +1,4 @@
-class Consumer
+class ArticleConsumer
 
   def self.subscribe
     # grab the fanout exchange
